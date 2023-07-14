@@ -13,7 +13,7 @@ int main(void)
 {
 	int x = '0';
 
-	while (ch <= '9')
+	while (x <= '9')
 	{
 	printf("%d", x);
 	x++;
