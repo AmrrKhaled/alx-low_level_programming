@@ -1,15 +1,17 @@
-#include<stdio.h>
+#include<unistd.h>
 
 /**
  * main - Entry point
  *
- * Discription: A C program that prints with printf function
+ * Discription: A C program that prints with write  function
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (not Success)
 */
 
 int main(void)
 {
-	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	return (0);
+	char que[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, quo, 59);
+	return (1);
 }
