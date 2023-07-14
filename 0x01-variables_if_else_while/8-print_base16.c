@@ -13,7 +13,7 @@ int main(void)
 {
 	int x = 0;
 	char ch = 'a';
-	
+
 	while (x < 10)
 	{
 	putchar(48 + x);
