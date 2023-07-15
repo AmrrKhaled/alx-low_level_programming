@@ -44,6 +44,7 @@ int main(void)
 	x++;
 	y = 48 + i;
 	}
+	putchar('\n');
 	return (0);
 
 }
