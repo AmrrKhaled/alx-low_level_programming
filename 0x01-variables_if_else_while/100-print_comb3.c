@@ -11,25 +11,12 @@
 */
 int main(void)
 {
-	int x = 48, y = 48;
-	int i = 0;
+	int x = 48, y = 49;
 
-	while (x < 58)
+	for (int i = 0; i < 9  ; i++)
 	{
-	i++;
-	while (y < 58)
-	{
-	if (x > y)
-	{
-	putchar(y);
-	putchar(x);
-	if (!(x == '8' && y == '9'))
-	{
-	putchar(',');
-	putchar(' ');
-	}
-	}
-	else if (x < y)
+	y = 49 + i;
+	for (int j = 0; j < 9 - i ; j++)
 	{
 	putchar(x);
 	putchar(y);
@@ -37,14 +24,14 @@ int main(void)
 	{
 	putchar(',');
 	putchar(' ');
-	}
 	}
 	y++;
 	}
 	x++;
-	y = 48 + i;
 	}
-	putchar('\n');
 	return (0);
-
 }
+
+
+
+
