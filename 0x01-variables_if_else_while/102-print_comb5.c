@@ -11,7 +11,7 @@ int main(void)
 {
 	int tenss1, ones1, tens2, ones2;
 
-	for (tenss1 = 0; tens1 < 10; tens1++)
+	for (tenss1 = 0; tenss1 < 10; tenss1++)
 	{
 		for (ones1 = 0; ones1 < 10; ones1++)
 		{
