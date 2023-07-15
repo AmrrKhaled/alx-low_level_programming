@@ -11,12 +11,12 @@
 */
 int main(void)
 {
-	int x = 48, y = 49;
+	int i, j, x = 48, y = 49;
 
-	for (int i = 0; i < 9  ; i++)
+	for (i = 0; i < 9  ; i++)
 	{
 	y = 49 + i;
-	for (int j = 0; j < 9 - i ; j++)
+	for (j = 0; j < 9 - i ; j++)
 	{
 	putchar(x);
 	putchar(y);
