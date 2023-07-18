@@ -2,11 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Discription: A C program that print the last digit of a positive or negative
- *
- * Return: Always 0 (Success)
+ * print_alphabet utilizes on the _putchar function
+ * to print from a-z
 */
 void print_alphabet(void)
 {
