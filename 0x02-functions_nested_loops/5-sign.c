@@ -2,25 +2,25 @@
 #include <stdio.h>
 
 /**
- * _islower-function  check the character is uppercase or smallercase
+ * print_sign:  check the number positve or negative
  *
- * @c: check the input of function
+ * @n: check the input of function
  *
- * Return: retuns 1 if c is lower otherwise alwayzi 0 (success)
+ * Return: retuns 1 if c is positive otherwise alwayzi 0 (success)
 */
-int _isalpha(int c)
+int print_sign(int n)
 {
-	if(n>0)
+	if (n > 0)
 	{
 	_putchar('+')
 	return (1);
 	}
-	else if(n=0)
+	else if (n == 0)
 	{
 	_putchar(0)
 	return (0);
 	}
-	else 
+	else
 	{
 	_putchar('-')
 	return (0);
