@@ -5,7 +5,7 @@
  * print_alphabet-  utilizes on the _putchar function to print
  * the alphabet from a-z 10 times
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int i, j;
 
