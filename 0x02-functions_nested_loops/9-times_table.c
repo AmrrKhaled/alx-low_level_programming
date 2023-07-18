@@ -19,16 +19,15 @@ void times_table(void)
 	}
 	value = i * j;
 	if (value < 10)
-	_putchar(' ');
-	if (value < 10)
 	{
+	_putchar(' ');
 	_putchar(' ');
 	_putchar(value + '0');
 	}
 	else
 	{
+	_putchar(' ');
 	_putchar(value / 10 + '0');
-	_putchar('.');
 	_putchar(value % 10 + '0');
 	}
 	}
