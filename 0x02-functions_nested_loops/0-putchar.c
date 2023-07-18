@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include <main.h>
 #include <stdio.h>
 
@@ -9,19 +8,13 @@
  *
  * Return: Always 0 (Success)
 */
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
-/**
- * main - Entry point
- *
- * Discription: A C program that print the last digit of a positive or negative
- *
- * Return: Always 0 (Success)
-*/
-int _putchar(char c)
+int main(void)
 {
+	int i;
+	char str[] = "_putchar";
 
-	return (write(1, &c,1);
+	for (i = 0; i < 8; i++)
+	_putchar(str[i]);
+	_putchar('\n');
+	return (0);
 }
