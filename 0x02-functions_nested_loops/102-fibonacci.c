@@ -14,9 +14,9 @@ int main(void)
 	long unsigned f1 = 1;
 	long unsigned f2 = 1;
 	long unsigned f3;
- 	int i;
+	int i;
 	for ( i = 0; i < 50;i++)
- 	{
+	{
 	printf("%lu", f2);
 	if (i < 49)
 	printf(", ");
