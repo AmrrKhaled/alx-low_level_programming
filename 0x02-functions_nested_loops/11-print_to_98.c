@@ -7,21 +7,23 @@
  *
  * @n: check the input of function
 */
-void print_to_98(int n)
+void print_to_98(int n){
+	int i ;
+if(n<98)
 {
-	int i;
+    for (i = n ; i <= 98; i++)
+    {
+        printf("%d, ",i);
+        }
+        }
+else if(n>98){
 
-	putchar(n + '0');
-	for (i = n + 1; i <= 98; i++)
-	{
-	putchar(',');
-	putchar(' ');
-	if (i > 9)
-	{
-	putchar(i / 10 + '0');
-	putchar(i % 10 + '0');
-	}
-	else
-	putchar(i + '0');
-	}
+     for (i = n ; i >= 98; i--)
+    {
+        printf("%d, ",i);
+        }
+}
+else
+printf("98");
+
 }
