@@ -11,11 +11,11 @@
 */
 int main(void) 
 {
-	long unsigned f1 = 1;
-	long unsigned f2 = 1;
-	long unsigned f3;
+	unsigned long f1 = 1;
+	unsigned long f2 = 1;
+	unsigned long f3;
 	int i;
-	for ( i = 0; i < 50;i++)
+	for ( i = 0; i < 50; i++)
 	{
 	printf("%lu", f2);
 	if (i < 49)
