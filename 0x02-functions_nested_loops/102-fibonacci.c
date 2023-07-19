@@ -22,6 +22,6 @@ int main(void) {
     f3=f1+f2;
     f1=f2;
     f2=f3;
- 
+  }
 return (0);
   }
