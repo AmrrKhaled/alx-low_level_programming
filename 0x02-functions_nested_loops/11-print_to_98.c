@@ -23,7 +23,7 @@ else if(n>98){
         printf("%d, ",i);
         }
 }
-else
+
 printf("98");
 
 }
