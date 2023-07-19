@@ -17,6 +17,7 @@ void print_to_98(int n)
 	putchar(',');
 	putchar(' ');
 	if (i > 9)
+	{
 	putchar(i / 10 + '0');
 	putchar(i % 10 + '0');
 	}
