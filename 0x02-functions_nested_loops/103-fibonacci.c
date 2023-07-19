@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+nclude "main.h"
 int main() {
     int prev = 1;
     int current = 2;
