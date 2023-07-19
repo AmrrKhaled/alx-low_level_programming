@@ -14,10 +14,10 @@ int main(void) {
    long unsigned f2=1;
    long unsigned f3;
   int i;
-   for(i=0; i<50;i++)
+   for(i=0; i<=50;i++)
   {
-    printf("%lu",f1);
-    if(i<49)
+    printf("%lu",f2);
+    if(i<50)
     printf(", ");
     f3=f1+f2;
     f1=f2;
