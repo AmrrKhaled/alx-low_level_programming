@@ -17,7 +17,7 @@ int main(void)
  	int i;
 	for ( i = 0; i < 50;i++)
  	{
- 	printf("%lu", f2);
+	printf("%lu", f2);
 	if (i < 49)
 	printf(", ");
 	f3 = f1 + f2;
