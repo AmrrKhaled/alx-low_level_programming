@@ -9,7 +9,7 @@
  *
  * Return: Always 0 (Success)
 */
-int main(void) 
+int main(void)
 {
 	unsigned long f1 = 1;
 	unsigned long f2 = 1;
