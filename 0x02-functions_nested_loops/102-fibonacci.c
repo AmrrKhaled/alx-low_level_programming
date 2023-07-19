@@ -13,7 +13,8 @@ int main(void) {
    long unsigned f1=1;
    long unsigned f2=1;
    long unsigned f3;
-  for(int i=0; i<50;i++)
+  int i;
+   for(i=0; i<50;i++)
   {
     printf("%lu",f1);
     if(i<49)
@@ -23,4 +24,4 @@ int main(void) {
     f2=f3;
  }
 return (0);
-}
+
