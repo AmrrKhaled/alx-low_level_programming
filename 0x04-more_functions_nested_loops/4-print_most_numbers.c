@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_numbers - print numbers from 0 - 9 using only _putchar twice
- *
+ * print_most_numbers - print numbers from 0 - 9 using only _putchar twice
+ * exucluding 2 and 4
  * Return: always 0 success
 */
 void print_most_numbers(void)
@@ -13,7 +13,7 @@ void print_most_numbers(void)
 
 	while (x < 10)
 	{
-	if (x != 1 && x != 4)
+	if (x != 2 && x != 4)
 	_putchar(48 + x);
 	x++;
 	}
