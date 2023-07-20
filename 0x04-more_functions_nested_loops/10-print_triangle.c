@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_triangle(int n)
 {
 	int i, j, z;
 
@@ -22,5 +22,4 @@ int main(void)
 	_putchar('\n');
 	}
 	}
-	return (0);
 }
