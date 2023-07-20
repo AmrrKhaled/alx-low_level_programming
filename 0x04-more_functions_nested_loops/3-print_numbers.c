@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * print_numbers function prints from 0 to 9
+/**
+ * print_numbers - print numbers from 0 - 9 using only _putchar twice
  *
- * Discription: A C program that prrints the numbers
+ * Return: always 0 success
 */
 void print_numbers(void)
 {
