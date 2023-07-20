@@ -1,24 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main - Entry point
+ * print_numbers - print numbers from 0 - 9 using only _putchar twice
  *
- * Discription: A C program that prints the number is positive or negative
- *
- * Return: Always 0 (Success)
+ * Return: always 0 success
 */
-int main(void)
+void print_most_numbers(void)
 {
 	int x = 0;
 
 	while (x < 10)
 	{
-	if (x !=1 && x != 2)
-	putchar(48 + x);
+	if (x != 1 && x != 2)
+	_putchar(48 + x);
 	x++;
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
