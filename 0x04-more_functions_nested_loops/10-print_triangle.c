@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i, j z;
+	int i, j, z;
 
 	if (n <= 0)
 	_putchar('\n');
