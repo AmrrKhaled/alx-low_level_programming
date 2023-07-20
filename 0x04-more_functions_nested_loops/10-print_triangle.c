@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * print_triangle- takes input n and prints triangle with size n
+ * using oly putchar function only
+ * @n: checks the input of the function
  * Return: Always 0.
  */
 void print_triangle(int n)
