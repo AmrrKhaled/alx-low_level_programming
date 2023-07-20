@@ -14,8 +14,8 @@ void print_most_numbers(void)
 	while (x < 10)
 	{
 	if (x != 1 && x != 2)
-	_putchar(48 + x);
+	putchar(48 + x);
 	x++;
 	}
-	_putchar('\n');
+	putchar('\n')i;
 }
