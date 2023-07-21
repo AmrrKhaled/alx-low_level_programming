@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * main - check the code
+ * print_number -takes input n from the user the print it again using
+ * only putchar
  *
- * Return: Always 0.
+ * @n: checks the input of the function
  */
 void print_number(int n)
 {
@@ -32,4 +33,5 @@ void print_number(int n)
 	_putchar((n / 10) % 10 + 48);
 	_putchar(n % 10 + 48);
 	}
+	_putchar('\n');
 }
