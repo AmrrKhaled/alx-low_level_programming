@@ -10,26 +10,26 @@ void print_number(int n)
 	if (n < 0)
 	{
 	n = -1 * n;
-	putchar('-');
+	_putchar('-');
 	}
 	if (abs(n) < 10)
-	putchar(n % 10 + 48);
+	_putchar(n % 10 + 48);
 	else if (abs(n) < 100)
 	{
-	putchar(n / 10 + 48);
-	putchar(n % 10 + 48);
+	_putchar(n / 10 + 48);
+	_putchar(n % 10 + 48);
 	}
 	else if (abs(n) < 1000)
 	{
-	putchar(n / 100 + 48);
-	putchar((n / 10) % 10 + 48);
-	putchar(n % 10 + 48);
+	_putchar(n / 100 + 48);
+	_putchar((n / 10) % 10 + 48);
+	_putchar(n % 10 + 48);
 	}
 	else if (abs(n) < 10000)
 	{
-	putchar(n / 1000 + 48);
-	putchar((n / 10) % 10 + 48);
-	putchar((n / 10) % 10 + 48);
-	putchar(n % 10 + 48);
+	_putchar(n / 1000 + 48);
+	_putchar((n / 100) % 10 + 48);
+	_putchar((n / 10) % 10 + 48);
+	_putchar(n % 10 + 48);
 	}
 }
