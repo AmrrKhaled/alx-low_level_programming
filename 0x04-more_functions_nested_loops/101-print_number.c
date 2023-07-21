@@ -11,6 +11,7 @@ void print_number(int n)
 	{
 	n = -1 * n;
 	putchar('-');
+	}
 	if (abs(n) < 10)
 	putchar(n % 10 + 48);
 	else if (abs(n) < 100)
