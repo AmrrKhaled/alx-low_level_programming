@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * puts_half - printsevend terms in string
+ * puts2 - prints evend terms in string
  * @str: is pointer to the string to print
  */
-void puts_half(char *str);
+void puts2(char *str)
 {
 	int i;
 
