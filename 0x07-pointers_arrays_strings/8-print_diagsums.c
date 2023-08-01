@@ -9,8 +9,8 @@
  */
 void print_diagsums(int *a, int size)
 {
-int sum1=0,sum2=0;
-  for(int i=0,j=size-1;i<size;i++,j--) {
+int sum1=0,sum2=0,i,j;
+  for(i=0,j=size-1;i<size;i++,j--) {
      sum1+=a[i][i];
      sum2+=a[i][j];
 
